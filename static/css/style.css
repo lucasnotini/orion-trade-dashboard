@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #F3F3F3;
+}
+
+.header {
+    overflow: hidden;
+    width: 100%;
+    color: #efefef;
+    background-color: rgb(12, 68, 102);
+    background-image: url("../images/fundo-header.png");
+    background-size: cover;
+}
+
+
+.logo img {
+    float: left;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 150px;
+}
+
+.titulo {
+    background-color: none;
+    float: right;
+    font-size: 64px;
+    line-height: 125%;
+    font-weight: bolder;
+    margin-top: 5%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+
+}
+
+ul {
+    font-size: 16px;
+    float: right;
+    list-style-type: none;
+    padding-right: 3%;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+li {
+    float: left;
+    padding: 12px;
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-top: 3%;
+}
+
+.banner img {
+    margin: auto;
+    display: block;
+    width: 85%;
+}
+
+#videoBanner{
+    max-width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.title1 {
+
+    color: rgb(12, 68, 102);
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.text1 {
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+
+section#produtos {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 5%;
+}
+
+.estrategias,
+.robos,
+.mentoria,
+.indicadores {
+    background-color: none;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+section img {
+    height: 130px;
+    
+}
+
+.estDesc,
+.robDesc,
+.mentDesc,
+.indDesc {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(12, 68, 102);
+    background-color: none;
+}
+
+section#metodos {
+    padding-top: 5%;
+    background-color: white;
+    height: 650px;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+.img-metodos {
+    border: solid 1px rgb(12, 68, 102);
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+}
+
+.img-metodos img {
+    height: 100%;
+}
+
+.container-metodos {
+    
+    max-width: 35%;
+    float: right;
+    margin-right: 10%;
+    font-size: x-large;
+    background-color: none;
+    color:black;
+    
+}
+
+.container-metodos h2,
+h3 {
+        margin-bottom: 20px;
+        color:black;
+}
+
+.container-metodos h2{
+    color:rgb(12, 68, 102);
+    font-weight: bold;
+}
+
+
+
+footer {
+    position: relative;
+    text-align: left;
+    height: 110px;
+    width: 100%;
+    color: #efefef;
+    background-color: #fff;
+}
+
+#footer-text {
+    position: absolute;
+    float: left;
+    top: 45%;
+    left: 9%;
+    font-size: 30px;
+    color: #243642;
+    font-size: 12pt;
+
+}
+
+@media screen and (max-width:700px) {
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        float: none;
+        height: 100px;
+        padding: 0;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 35px;
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20% 5% 20%;
+       
+    }
+
+    .banner {
+        background-color: none;
+        margin: 0;
+        height: 150px;
+    }
+
+    #videoBanner{
+        max-width: 95%;
+    }
+
+    section#produtos{
+        text-align: center;
+        margin: 0;
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 5%;
+    }
+
+    section#metodos{
+        background-color: none;
+        text-align: center;   
+
+    }
+
+
+    .img-metodos {  
+        background-color: none; 
+        border: 0; 
+        margin: auto;
+        height: 70%;
+        float: none;
+    }
+
+    .img-metodos img {  
+        max-width: 80%;
+    }
+
+  
+    .container-metodos{
+        background-color: none;
+        max-width: 90%;
+        font-size: medium;
+        margin: auto;
+        float: none;
+    }
+
+    
+
+    .estDesc,
+    .robDesc,
+    .mentDesc,
+    .indDesc {
+    font-size: medium;
+    font-weight: bold;
+    color:rgb(12, 68, 102);
+    background-color: none;
+    }
+
+
+
+}
